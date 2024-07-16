@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0;
+    text-decoration: none;
+    outline:none;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-size:40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.lip{
+    font-size: 15px;
+}
+.bgb{
+    background-color: rgb(225, 239, 255);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight:600;
+}
+.landing{
+    background-color: rgb(230, 235, 241);
+    
+}
+.landing img{
+    transition: transform 0.3s ease-in-out , box-shadow 0.3s ease-in-out;
+}
+.landing img:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.pages .card{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+
+}
+.pages li i{
+    position:relative;
+    float:right;
+}
+.pages li:hover{
+    background-color:rgb(240, 240, 255) ;
+}
+.examples{
+    background-color: rgb(230, 235, 241);
+    
+   
+}
+.examples img{
+    transition: transform 0.3s ease-in-out , box-shadow 0.3s ease-in-out;
+}
+.examples img:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Documentation */
+.dc{
+    color:#c7c7ca;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.documentation .card{
+    border: none;
+}
+/* Documentation */
+.footer .card{
+border:none;
+}
+/* footer */
+.footer{
+    background-color:rgb(240, 240, 255);
+  
+}
+.footer .social{
+    display: inline;
+    font-size: 20px;
+  
+}
+.footer a{
+    font-size:14px;
+}
+.setting{
+   position: fixed;
+   top:82px;
+   right:9px;
+   z-index:1;
+   font-size: 20px;
+ 
+}
+.sicon{
+    background-color:rgb(240, 240, 255);
+    width:45px;
+    height: 45px;
+    position:fixed;
+    top:70px;
+    right:0;
+    z-index:1;
+}
